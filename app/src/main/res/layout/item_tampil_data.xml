@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipereveallayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    app:cardCornerRadius="15dp"
+    app:mode="same_level"
+    app:dragEdge="right">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layoutDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Hapus"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#4bbb7b">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="Edit"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:padding="8dp"
+        android:onClick="ShowPopUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round" />
+
+
+            <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtname"
+                android:textColor="@color/blue_sky"
+                android:text="@string/jenis_ikan"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_toEndOf="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txtkabkota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtname"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/kab_kota" />
+
+            <TextView
+                android:id="@+id/txtharga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtkabkota"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Harga Ikan" />
+
+
+            <TextView
+                android:id="@+id/txttgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtname"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Tanggal Update" />
+
+
+           <TextView
+               android:id="@+id/txtstatus"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/txtname"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_toEndOf="@id/img_item_photo"
+               android:ellipsize="end"
+               android:maxLines="2"
+               android:textColor="@color/dark_blue"
+               android:text="status" />
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

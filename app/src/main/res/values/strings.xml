@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">AplikasiPasarIkan</string>
+    <string name="title">Sistem Informasi Pasar Ikan</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="create_account">Buat akun!</string>
+    <string name="email">email</string>
+    <string name="register">Register</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="name">name</string>
+    <string name="profil">Profil</string>
+    <string name="data_pasar_ikan">Data Pasar Ikan</string>
+    <string name="data_usaha">Data Usaha</string>
+    <string name="pasar_ikan">Pasar Ikan</string>
+    <string name="harga_ikan">Harga Ikan</string>
+    <string name="produksi">Produksi</string>
+    <string name="komoditi">Komoditi</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="navigation_drawer_open">open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jenis_ikan">jenis ikan</string>
+    <string name="kab_kota">kab/kota</string>
+    <string name="jumlah">jumlah</string>
+    <string name="alamat">alamat</string>
+    <string name="rumah_makan">Rumah Makan</string>
+    <string name="about">About</string>
+    <string name="non_konsumsi">Non Konsumsi</string>
+    <string name="login_user">Login User</string>
+    <string name="silahkan_login">Silahkan Login</string>
+    <string name="logout">Logout</string>
+
+
+    <string-array name="Jenis_ikan">
+        <item>--Pilih Jenis Ikan--</item>
+        <item>Cumi Cumi</item>
+        <item>Gurame</item>
+        <item>Ikan Cakalang</item>
+        <item>Ikan Gurami</item>
+        <item>Ikan Kakap</item>
+        <item>Ikan Kembung</item>
+        <item>Ikan Kerapu</item>
+        <item>Ikan Kwe/Gabua</item>
+        <item>Ikan Lele</item>
+        <item>Ikan Mas</item>
+        <item>Ikan Nila</item>
+        <item>Ikan Patin</item>
+        <item>Ikan Sarai</item>
+        <item>Ikan Tongkol</item>
+        <item>Kepiting</item>
+        <item>Kerapu Asin</item>
+        <item>Lele</item>
+        <item>Teri Asin</item>
+        <item>Teri Asin</item>
+        <item>Tongkol Komo</item>
+        <item>Tongkol Komo</item>
+        <item>Tongkol Komo</item>
+        <item>Tongkol Komo</item>
+        <item>Udang Kelong</item>
+        <item>Udang Putih</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>--Pilih Status--</item>
+        <item>Publish</item>
+        <item>Not Publish</item>
+    </string-array>
+
+</resources>
